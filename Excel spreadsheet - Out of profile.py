@@ -40,7 +40,7 @@ pyautogui.click(210,475, button = 'left', duration = 0.25)
 time.sleep(4)
 
 # Abrir a pasta/planilha excel
-os.startfile(r"C:\Users\elvis.monteiro\Desktop\Teste para envio fora de perfil\Fora do Perfil - Atualização Diária 2021.xlsb")
+os.startfile(r"C:\Users\thiago.cardoso\Desktop\Teste para envio fora de perfil\Fora do Perfil - Atualização Diária 2024.xlsb")
 
 pyautogui.PAUSE=6
 
@@ -72,15 +72,15 @@ email.To = " emailexemplo1@.com;emailexemplo2@.com.br"
 email.Subject ="Assunto"
 
 email.HTMLBody = """
-<p>Olá, Bom dia ! Segue em anexo a planilha XYZ atualizada 2021.</p>
+<p>Olá, Bom dia ! Segue em anexo a planilha Pet atualizada 2024.</p>
 
 <p>Att 
 
-Elvis M.</p>
+Thiago Cardoso.</p>
 
 """
 #Enviar Anexo
-anexo = r"C:\Users\elvis.monteiro\Desktop\Teste para envio fora de perfil\Fora do Perfil - Atualização Diária 2021.xlsb"
+anexo = r"C:\Users\thiago.cardoso\Desktop\Teste para envio fora de perfil\Fora do Perfil - Atualização Diária 2024.xlsb"
 email.Attachments.Add(anexo)
 
 email.Send ()

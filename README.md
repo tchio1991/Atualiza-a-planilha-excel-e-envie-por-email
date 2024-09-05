@@ -1,6 +1,4 @@
-# **Objetivo:** Update the excel spreadsheet and send by email 
-
-_12/04/2021_
+# **Objetivo:** Atualize a planilha excel e envie por email com Scripts Python
 
 ![](Python-Excel.jpeg)
 
@@ -80,15 +78,15 @@ email.To = " emailexemplo1@.com;emailexemplo2@.com.br"
 email.Subject ="Assunto"
 
 email.HTMLBody = """
-<p>Olá, Bom dia ! Segue em anexo a planilha XYZ atualizada 2021.</p>
+<p>Olá, Bom dia ! Segue em anexo a planilha Pet atualizada 2024.</p>
 
 <p>Att 
 
-Elvis M.</p>
+Thiago Cardoso.</p>
 
 """
 #Enviar Anexo
-anexo = r"C:\Users\elvis.monteiro\Desktop\Teste para envio fora de perfil\Fora do Perfil - Atualização Diária 2021.xlsb"
+anexo = r"C:\Users\thiago.cardoso\Desktop\Teste para envio fora de perfil\Fora do Perfil - Atualização Diária 2024.xlsb"
 email.Attachments.Add(anexo)
 
 email.Send ()
@@ -103,9 +101,3 @@ print ("email enviado")
     3 - Basta criar uma basta no agendador de tarefas nomeando a tarefa e subindo o script .py.
 
 # Fim
-
-### Links e Referências
-
-* Documentação Oficial: [Python-PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)
-* Livro Original: [Automate the Boring Stuff with Python](https://www.amazon.com.br/Automate-Boring-Stuff-Python-2nd/dp/1593279922/ref=asc_df_1593279922/?tag=googleshopp00-20&linkCode=df0&hvadid=379726160779&hvpos=&hvnetw=g&hvrand=17894222063597453754&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074180&hvtargid=pla-842272648989&psc=1&mcid=21d65bd15b84302d865dbcc8252b84bc)
-
