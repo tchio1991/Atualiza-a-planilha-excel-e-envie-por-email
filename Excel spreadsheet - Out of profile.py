@@ -1,4 +1,4 @@
-**Objetivo:** Atualizar a planilha do excel e enviar por email 
+**Projeto:** Automatizar Processos de Geração e Envio de planilhas com Python
 
 <font color = 'grey'>Descrição do processo e trabalho feito:</font>
  
